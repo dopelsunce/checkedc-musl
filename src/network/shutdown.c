@@ -1,5 +1,6 @@
 #include <sys/socket.h>
 #include "syscall.h"
+#pragma CHECKED_SCOPE on
 
 int shutdown(int fd, int how)
 {

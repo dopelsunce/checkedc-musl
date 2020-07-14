@@ -2,6 +2,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include "syscall.h"
+#pragma CHECKED_SCOPE on
 
 int socket(int domain, int type, int protocol)
 {
